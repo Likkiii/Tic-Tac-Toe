@@ -66,7 +66,7 @@ const check_for_winner = () => {
     winner.classList.add("playerWin");
     board_full = true
   } else if (res == computer) {
-    winner.innerText = "Computer is the winner!";
+    winner.innerText = "Hard luck! Computer is the winner!";
     winner.classList.add("computerWin");
     board_full = true
   } else if (board_full) {
